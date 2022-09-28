@@ -1,7 +1,8 @@
 // React Native
+import "./src/services/notificationConfig";
+
 import { StatusBar } from "react-native";
 import { useEffect, useRef } from "react";
-import "./src/services/notificationConfig";
 import { getPushNotificationToken } from "./src/services/getPushNotificationToken";
 import { Subscription } from "expo-modules-core";
 import * as Notifications from "expo-notifications";
